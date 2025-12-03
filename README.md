@@ -4,6 +4,7 @@
 - Работа через прокси
 - Автоматическая ротация прокси при ошибках (опционально)
 - Полностью мультиязычный интерфейс: **Русский** и **English**
+- Выполняет ежедневный чек-ин
 - Автоматический перезапуск каждые 24 часа
 
 ## Установка
@@ -39,6 +40,7 @@ node start.js
 - Proxy support
 - Automatic proxy rotation on errors (optional)
 - Fully multilingual interface: **Russian** and **English**
+- Daily check-in
 - Automatic restart every 24 hours
 
 ## Installation
