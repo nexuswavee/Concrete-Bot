@@ -13,7 +13,7 @@ const gradient = require('gradient-string');
 const readline = require('readline');
 const Table = require('cli-table3');
 
-// Конфигурация
+//
 const CONFIG = {
   REF_CODE: "f83d5a9b",
   SEASON: "z2zi-tzc2",
@@ -23,10 +23,10 @@ const CONFIG = {
   CHECK_INTERVAL_HOURS: 24,
 };
 
-// Глобальная переменная для хранения сессий по адресам кошельков
+//
 const sessions = new Map();
 
-// Локализация
+//
 const LANGUAGES = {
   EN: {
     selectLanguage: "SELECT LANGUAGE",
@@ -148,7 +148,7 @@ class ConcreteBot {
       totalCycles: 0
     };
     
-    // Цвета - только ядовито-зеленый и розовый
+    //
     this.GREEN = chalk.hex('#00FF00');
     this.PINK = chalk.hex('#FF00FF');
     this.WHITE = chalk.white;
