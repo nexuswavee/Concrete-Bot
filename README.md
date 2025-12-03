@@ -17,7 +17,7 @@ cd Concrete-Bot
 ```bash
 npm install
 ```
-### 1. Создайте файл `.env` в корневой папке и добавьте приватные ключи:
+#### 1. Создайте файл `.env` в корневой папке и добавьте приватные ключи:
 
  ```bash  
 0x...
@@ -25,7 +25,9 @@ npm install
 0x...
 ```
 
-### 2. (Опционально) Создайте файл proxies.txt — по одному прокси на строку
+#### 2. (Опционально) Создайте файл proxies.txt — по одному прокси на строку
+
+## Запуск
 
 ```bash
 node start.js
@@ -50,14 +52,16 @@ cd Concrete-Bot
 ```bash
 npm install
 ```
-### 1. Create a `.env` file in the root folder and add your private keys:
+#### 1. Create a `.env` file in the root folder and add your private keys:
 
  ```bash  
 0x...
 0x...
 0x...
 ```
-### 2. (Optional) Create a proxies.txt file — one proxy per line
+#### 2. (Optional) Create a proxies.txt file — one proxy per line
+
+## Run
 
 ```bash
 node start.js
